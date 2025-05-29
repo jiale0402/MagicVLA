@@ -84,9 +84,8 @@ setup_rl() {
   cd "$CURRENT_DIR" || exit
   echo "Setting up RL..."
   echo "Setting up RL environment..."
-  uv pip install -e verl-magicsim[sglang, vllm]
-  uv pip install flash-attn --no-build-isolation
   uv sync --extra rl
+  uv pip install flash-attn --no-build-isolation
 
   echo "Build ROS workspace..."
   build_ros_ws

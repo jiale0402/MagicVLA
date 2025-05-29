@@ -21,7 +21,7 @@ dependencies = [
 
 [project.optional-dependencies]
 rl = [
-    "verl",
+    "verl[sglang,vllm]",
     "requests",
     "qwen-vl-utils",
     "datasets==3.6.0",
@@ -63,7 +63,7 @@ torchvision = [
 ]
 MagicSim = {workspace = true}
 MagicRos = {workspace = true}
-verl = { workspace = true }
+verl = {workspace = true}
 
 [tool.ruff]
 exclude = [
