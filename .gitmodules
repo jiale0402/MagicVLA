@@ -1,0 +1,7 @@
+
+[submodule "MagicSim"]
+	path = MagicSim
+	url = https://github.com/luhr2003/MagicSim.git
+[submodule "verl-magicsim"]
+	path = verl-magicsim
+	url = git@github.com:jiale0402/verl-magicsim.git
